@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/globals.css">
+    <link rel="stylesheet" href="styles/home.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="hero__header">
         <div class="hero__section">
             <h1 class="hero__quote">Szachy są w swej istocie grą,</br> w swojej formie sztuką,</br> a w swoim wykonaniu nauką</h1>
             <img src="img/test1.png" class="hero__image"/>    
@@ -54,7 +55,7 @@
         </div>
     </section>
     <section class="container">
-        <h1 class="heading__primary">Aktualny turniej</h1>
+        <h1 class="heading__primary">Następny turniej</h1>
         <div class="current__container">
             <!-- <h2 class="current__title">Brak informacji o następnym turnieju</h2>  -->
             <h2 class="current__title">Budowlanka Rivals 2023</h2>

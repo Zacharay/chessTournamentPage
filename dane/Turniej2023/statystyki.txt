@@ -1,0 +1,22 @@
+ID MiejsceImie i nazwisko klasa Pkt Wygrane przegrane Remisy Mecze
+1;0;Jakub Sakwiński;1i;0;0;0;0;0 
+2;0;Brajan Kowalewski;1i;0;0;0;0;0 
+3;0;Wiktor Skrzypek;5j5;0;0;0;0;0 
+4;0;Stępkowski Szymon;1p;0;0;0;0;0 
+5;0;Mariusz Piontkowski;2h;0;0;0;0;0 
+6;0;Tymoteusz Sternicki;2i;0;0;0;0;0 
+7;0;Łukasz Mosiołek;2w;0;0;0;0;0 
+8;0;Filip klatkowski;2w;0;0;0;0;0 
+9;0;Bartosz Brzezicki;2w;0;0;0;0;0 
+10;0;Bartosz Łątkowski;2w;0;0;0;0;0 
+11;0;Michał Wnuk;3g;0;0;0;0;0 
+12;0;Paweł Białecki;3j;0;0;0;0;0 
+13;0;Patruk Rafiński;3j;0;0;0;0;0 
+14;0;Bartłomiej Kawski;3j;0;0;0;0;0 
+15;0;Bartosz Lewandowski;3j;0;0;0;0;0 
+16;0;Bartosz Kozikowski;3e;0;0;0;0;0 
+17;0;Bartosz Kłuba;4e;0;0;0;0;0 
+18;0;Wojciech Czubiński;4i5;0;0;0;0;0 
+19;0;Grzegorz Płodowski;4e;0;0;0;0;0
+20;0;Pawel Szulc;5a5;0;0;0;0;0 
+21;0;Kacper Puchowski;5e5;0;0;0;0;0 

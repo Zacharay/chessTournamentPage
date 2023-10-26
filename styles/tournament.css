@@ -1,0 +1,144 @@
+.tournament__wraper{
+    display:flex;
+    max-width: 120rem;
+    margin:0 auto;
+    gap:4.8rem;
+}
+.tournament__navigation{
+    display:flex;
+    flex-direction: column;
+}
+.tournament__navigation__tab{
+    font-size:3.2rem;
+    font-weight: 700;
+    text-align: center;
+    background-color:var(--green-secondary);
+    color:rgb(255 247 237);
+    cursor: pointer;
+    padding:3.2rem;
+}
+.tournament__tab{
+    width:100%;
+}
+.tournament__tab--active{
+    background-color: var(--green-secondary);
+}
+.tournament__date{
+    font-size:2.4rem;
+    font-weight: bold;
+    color:#868e96;
+}
+.tournament__tab__title{
+    font-size:4rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:1.6rem;
+}
+.tournament__description{
+    font-size:2rem;
+    line-height: 1.8;
+}
+.tournament__header{
+    font-size:3.2rem;
+    letter-spacing: 1px;
+}
+.tournament__content--hidden{
+    display:none;
+}
+.players__container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:3.2rem;
+}
+.player__card{
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    background-color: white;
+    padding:1.6rem;
+    height: fit-content;
+}
+
+.player__info{
+    margin-top:0.8rem;
+    font-size:2rem;
+    text-align: center;
+}
+/*
+Results section
+*/
+.tournament__winners__container{
+    display:grid;  
+    margin-top:4.8rem;
+    margin-bottom:6.4rem;
+    grid-template-columns: repeat(3,1fr);
+    gap:1.6rem;
+}
+.winners__block{
+    background-color: var(--green-main);
+    width:100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height:10rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding:1.2rem;
+}
+.winners__block h4{
+    font-size:3.2rem;
+    text-align: center;
+    color:white;
+}
+.winners__block__container svg{
+    font-size:9.6rem;
+}
+.winners__block__container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap:2rem;   
+}
+.winners__block__container:nth-child(1) svg
+{
+    fill:#d0e6fb;
+}
+.winners__block__container:nth-child(2) svg
+{
+    fill:#f7c631;
+}
+.winners__block__container:nth-child(3) svg
+{
+    fill:#9D6C3E;
+}
+.winners__block__container:nth-child(1) div
+{
+    height:20rem;
+}
+.winners__block__container:nth-child(2) div
+{
+    height:30rem;
+}
+.winners__block__container:nth-child(3) div
+{
+    height:10rem;
+}
+/*
+
+*/
+.tournament__table{
+    margin-top:2rem;
+    width:100%;
+    border:2px solid black;
+    border-collapse: collapse;
+}
+.tournament__table th{
+    font-size:3.2rem;
+    border:2px solid black;
+}
+.tournament__table td{
+    border:2px solid black;
+    text-align: center;
+    font-size:2.4rem;
+    padding:1.6rem;
+}

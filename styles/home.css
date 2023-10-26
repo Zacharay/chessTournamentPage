@@ -1,47 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,400;1,700&display=swap');
-*{
-    box-sizing: border-box;
-    padding:0;
-    margin:0;
-}
-a:link,a:visited{
 
-    text-decoration: none;
-}
-body{
-    font-family: 'Lato', sans-serif;
-    color:rgb(1, 0, 14);
-    background-color: rgb(255 247 237);
-}
-header{
-    background-color:#111;
-}
-html{
-    font-size:62.5%;
-}
-section {
-    padding:6.4rem 0rem;
-}
 
-img{
-    max-width: 100%;
-}
-
-.heading__primary{
-    font-size:6.4rem;
-    text-align: center;
-    margin-bottom:4.8rem;
-}
-
-.container{
-    max-width: 128rem;   
-    padding-left:6.4rem;
-    padding-right:6.4rem;
-    margin:0 auto;
-}
 /*------------*/
 /*HERO SECTION */
 /*------------*/
+.hero__header{
+    background-color:#111;
+}
+
 
 .hero__section{
 
@@ -227,7 +192,7 @@ img{
     display:flex;
     align-items: center;
     gap:1.6rem;
-    background-color: #6B9641;
+    background-color: var(--green-main);
     color:white;
     text-align: center;
     padding:1.2rem 2.4rem;
@@ -236,5 +201,5 @@ img{
     float:right;
 }
 .previous__link:hover{
-    background-color:#7EA650;
+    background-color:(--green-secondary);
 }
