@@ -11,6 +11,7 @@ a:link,a:visited{
 body{
     font-family: 'Lato', sans-serif;
     color:rgb(1, 0, 14);
+    background-color: rgb(255 247 237);
 }
 header{
     background-color:#111;
@@ -19,7 +20,7 @@ html{
     font-size:62.5%;
 }
 section {
-    padding:8rem 0rem;
+    padding:6.4rem 0rem;
 }
 
 img{
@@ -31,9 +32,11 @@ img{
     text-align: center;
     margin-bottom:4.8rem;
 }
+
 .container{
     max-width: 128rem;   
-    padding:0 6.4rem;
+    padding-left:6.4rem;
+    padding-right:6.4rem;
     margin:0 auto;
 }
 /*------------*/
@@ -90,6 +93,8 @@ img{
         opacity: 1;
     }
 }
+
+
 /*------------*/
 /*SKILLS SECTION*/
 /*------------*/
@@ -136,6 +141,50 @@ img{
     gap:6.4rem;
 }
 /*------------*/
+/*current tournament SECTION*/
+/*------------*/
+.current__container{
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+    width:60%;
+    margin:0 auto;
+    padding:2.4rem;
+    background-color: white;
+    border-radius:5px;
+
+
+}
+.current__title{
+    font-size:3.2rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.current__description{
+    font-size:2rem;
+    margin-top:1.6rem;
+    line-height: 1.5;
+}
+.current__description__heading{
+    margin-top:1.6rem;
+    font-size:2.4rem;
+    letter-spacing: 1px;
+}
+.current__description ul{
+    display:flex;
+    flex-direction: column;
+    gap:0.8rem;
+    margin-bottom:1.6rem;
+}
+.current__description ul li{
+    font-size:2rem !important;
+    margin-left:3.2rem;
+}
+.current__ending__message{
+    margin-top:2rem;
+    font-weight: bold;
+    text-align: end;
+}
+/*------------*/
 /*Previous tournaments SECTION*/
 /*------------*/
 .previous__container{
@@ -150,6 +199,7 @@ img{
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     cursor: pointer;
     transition: all  0.4s;
+    background-color: white;
 }
 .previous__title{
     font-size:3rem;
