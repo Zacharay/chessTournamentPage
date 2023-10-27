@@ -8,6 +8,9 @@
     <title>Document</title>
 </head>
 <body>
+    <?php
+    require_once "nav.php";
+    ?>
     <header class="hero__header">
         <div class="hero__section">
             <h1 class="hero__quote">Szachy są w swej istocie grą,</br> w swojej formie sztuką,</br> a w swoim wykonaniu nauką</h1>

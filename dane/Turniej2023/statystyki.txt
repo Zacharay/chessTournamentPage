@@ -1,4 +1,4 @@
-ID MiejsceImie i nazwisko klasa Pkt Wygrane przegrane Remisy Mecze
+ID Miejsce Imie i nazwisko klasa Pkt Wygrane przegrane Remisy Mecze
 1;0;Jakub Sakwiński;1i;0;0;0;0;0 
 2;0;Brajan Kowalewski;1i;0;0;0;0;0 
 3;0;Wiktor Skrzypek;5j5;0;0;0;0;0 

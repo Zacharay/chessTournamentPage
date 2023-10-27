@@ -8,6 +8,9 @@
     <title>Document</title>
 </head>
 <body>
+    <?php 
+    require_once "nav.php";
+    ?>
     <?php
         $filename = "dane/Turniej2023/statystyki.txt";
         $stats = [];
@@ -51,16 +54,15 @@
             return strcmp($a['miejsce'], $b['miejsce']);
         });
     ?>
-    
-    <h1 class="heading__primary">Budowlanka Rivals 2023</h1> 
-    <div class="tournament__wraper">
-        <nav class="tournament__navigation">
+    <nav class="tournament__navigation">
             <div class="tournament__navigation__tab tournament__tab--active">Opis</div>
             <div class="tournament__navigation__tab">Zawodnicy</div>
             <div class="tournament__navigation__tab">Wyniki</div>
             <div class="tournament__navigation__tab">Partie</div>
             <div class="tournament__navigation__tab">Galeria</div>
-        </nav>
+    </nav>
+    <div class="container">
+
         <div class="tournament__tab tournament__main tournament__content--hidden">
             
             <img src="img/turnieje/main.jpg"/> 
@@ -138,6 +140,7 @@
         </div>
         <div class="tournament__tab tournament__content--hidden">
             <h3 class="tournament__tab__title">Partie</h3>
+            <h3>Etap szkolny</h3>
         </div>
         <div class="tournament__tab tournament__content--hidden">
             <h3 class="tournament__tab__title">Galeria</h3>
