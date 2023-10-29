@@ -77,8 +77,50 @@
             <div class="players__container">
                 <div class="player__card">
                     <img src="img/placeholder_player.jpg"/>
-                    <h3 class="player__info">Mateusz Bartczak 5i5</h3>
+                    <h3 class="player__info">Zachariasz Słupski 5i5</h3>
                 </div>
+                <div class="player__card">
+                    <img src="img/placeholder_player.jpg"/>
+                    <h3 class="player__info">Zachariasz Słupski 5i5</h3>
+                </div>
+                <div class="player__card">
+                    <img src="img/placeholder_player.jpg"/>
+                    <h3 class="player__info">Zachariasz Słupski 5i5</h3>
+                </div>
+
+                <div class="player__card">
+                    <img src="img/placeholder_player.jpg"/>
+                    <h3 class="player__info">Zachariasz Słupski 5i5</h3>
+                </div>
+                <div class="player__card">
+                    <img src="img/placeholder_player.jpg"/>
+                    <h3 class="player__info">Zachariasz Słupski 5i5</h3>
+                </div>
+                <div class="player__card">
+                    <img src="img/placeholder_player.jpg"/>
+                    <h3 class="player__info">Zachariasz Słupski 5i5</h3>
+                </div>
+                <div class="player__card">
+                    <img src="img/placeholder_player.jpg"/>
+                    <h3 class="player__info">Zachariasz Słupski 5i5</h3>
+                </div>
+                <div class="player__card">
+                    <img src="img/placeholder_player.jpg"/>
+                    <h3 class="player__info">Zachariasz Słupski 5i5</h3>
+                </div>
+                <div class="player__card">
+                    <img src="img/placeholder_player.jpg"/>
+                    <h3 class="player__info">Zachariasz Słupski 5i5</h3>
+                </div>
+                <div class="player__card">
+                    <img src="img/placeholder_player.jpg"/>
+                    <h3 class="player__info">Zachariasz Słupski 5i5</h3>
+                </div>
+                <div class="player__card">
+                    <img src="img/placeholder_player.jpg"/>
+                    <h3 class="player__info">Zachariasz Słupski 5i5</h3>
+                </div>
+
             </div>
         </div>
         <div class="tournament__tab ">
@@ -114,7 +156,7 @@
                         <th>W</th>
                         <th>P</th>
                         <th>R</th>
-                        <th>Mecze</th>
+                        <th>Partie</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -132,20 +174,159 @@
                         <td>{$stat['mecze']}</td>
                     </tr>";
                 }
-                ?>
-                    
-                    
+                ?>   
                 </tbody>
             </table>
         </div>
         <div class="tournament__tab tournament__content--hidden">
             <h3 class="tournament__tab__title">Partie</h3>
-            <h3>Etap szkolny</h3>
+            <table class="tournament__table">
+                <tbody>
+                    <tr>
+                            <td class="match__col game__winner__col"> 
+                                <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M309 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 14.4 7.6 27 19 34L209.7 220.6c-9.1 18.2-32.7 23.4-48.6 10.7L72 160c5-6.7 8-15 8-24c0-22.1-17.9-40-40-40S0 113.9 0 136s17.9 40 40 40c.2 0 .5 0 .7 0L86.4 427.4c5.5 30.4 32 52.6 63 52.6H426.6c30.9 0 57.4-22.1 63-52.6L535.3 176c.2 0 .5 0 .7 0c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40c0 9 3 17.3 8 24l-89.1 71.3c-15.9 12.7-39.5 7.5-48.6-10.7L309 106z"/></svg>
+                                Zachariasz Słupski
+                                </div>
+                                
+                            </td>
+                            <td class="match__col game__looser__col"> Magnus Carlsen</td>
+                            <td > 
+                                <a class="match__link"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" class="chessboard__icon"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm64 64v64h64V96h64v64h64V96h64v64H320v64h64v64H320v64h64v64H320V352H256v64H192V352H128v64H64V352h64V288H64V224h64V160H64V96h64zm64 128h64V160H192v64zm0 64V224H128v64h64zm64 0H192v64h64V288zm0 0h64V224H256v64z"/></svg>
+                            Zapis Partii </a>
+                            
+                            </td>   
+                        </tr>
+                        <tr>
+                            <td class="match__col game__winner__col"> 
+                                <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M309 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 14.4 7.6 27 19 34L209.7 220.6c-9.1 18.2-32.7 23.4-48.6 10.7L72 160c5-6.7 8-15 8-24c0-22.1-17.9-40-40-40S0 113.9 0 136s17.9 40 40 40c.2 0 .5 0 .7 0L86.4 427.4c5.5 30.4 32 52.6 63 52.6H426.6c30.9 0 57.4-22.1 63-52.6L535.3 176c.2 0 .5 0 .7 0c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40c0 9 3 17.3 8 24l-89.1 71.3c-15.9 12.7-39.5 7.5-48.6-10.7L309 106z"/></svg>
+                                Zachariasz Słupski
+                                </div>
+                                
+                            </td>
+                            <td class="match__col game__looser__col"> Magnus Carlsen</td>
+                            <td > 
+                                <a class="match__link"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" class="chessboard__icon"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm64 64v64h64V96h64v64h64V96h64v64H320v64h64v64H320v64h64v64H320V352H256v64H192V352H128v64H64V352h64V288H64V224h64V160H64V96h64zm64 128h64V160H192v64zm0 64V224H128v64h64zm64 0H192v64h64V288zm0 0h64V224H256v64z"/></svg>
+                            Zapis Partii </a>
+                            
+                            </td>   
+                        </tr>
+                        <tr>
+                            <td class="match__col game__winner__col"> 
+                                <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M309 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 14.4 7.6 27 19 34L209.7 220.6c-9.1 18.2-32.7 23.4-48.6 10.7L72 160c5-6.7 8-15 8-24c0-22.1-17.9-40-40-40S0 113.9 0 136s17.9 40 40 40c.2 0 .5 0 .7 0L86.4 427.4c5.5 30.4 32 52.6 63 52.6H426.6c30.9 0 57.4-22.1 63-52.6L535.3 176c.2 0 .5 0 .7 0c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40c0 9 3 17.3 8 24l-89.1 71.3c-15.9 12.7-39.5 7.5-48.6-10.7L309 106z"/></svg>
+                                Zachariasz Słupski
+                                </div>
+                                
+                            </td>
+                            <td class="match__col game__looser__col"> Magnus Carlsen</td>
+                            <td > 
+                                <a class="match__link"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" class="chessboard__icon"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm64 64v64h64V96h64v64h64V96h64v64H320v64h64v64H320v64h64v64H320V352H256v64H192V352H128v64H64V352h64V288H64V224h64V160H64V96h64zm64 128h64V160H192v64zm0 64V224H128v64h64zm64 0H192v64h64V288zm0 0h64V224H256v64z"/></svg>
+                            Zapis Partii </a>
+                            
+                            </td>   
+                        </tr>
+
+                        <tr>
+                            <td class="match__col game__winner__col"> 
+                                <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M309 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 14.4 7.6 27 19 34L209.7 220.6c-9.1 18.2-32.7 23.4-48.6 10.7L72 160c5-6.7 8-15 8-24c0-22.1-17.9-40-40-40S0 113.9 0 136s17.9 40 40 40c.2 0 .5 0 .7 0L86.4 427.4c5.5 30.4 32 52.6 63 52.6H426.6c30.9 0 57.4-22.1 63-52.6L535.3 176c.2 0 .5 0 .7 0c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40c0 9 3 17.3 8 24l-89.1 71.3c-15.9 12.7-39.5 7.5-48.6-10.7L309 106z"/></svg>
+                                Zachariasz Słupski
+                                </div>
+                                
+                            </td>
+                            <td class="match__col game__looser__col"> Magnus Carlsen</td>
+                            <td > 
+                                <a class="match__link"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" class="chessboard__icon"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm64 64v64h64V96h64v64h64V96h64v64H320v64h64v64H320v64h64v64H320V352H256v64H192V352H128v64H64V352h64V288H64V224h64V160H64V96h64zm64 128h64V160H192v64zm0 64V224H128v64h64zm64 0H192v64h64V288zm0 0h64V224H256v64z"/></svg>
+                            Zapis Partii </a>
+                            
+                            </td>   
+                        </tr>
+                        <tr>
+                            <td class="match__col game__winner__col"> 
+                                <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M309 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 14.4 7.6 27 19 34L209.7 220.6c-9.1 18.2-32.7 23.4-48.6 10.7L72 160c5-6.7 8-15 8-24c0-22.1-17.9-40-40-40S0 113.9 0 136s17.9 40 40 40c.2 0 .5 0 .7 0L86.4 427.4c5.5 30.4 32 52.6 63 52.6H426.6c30.9 0 57.4-22.1 63-52.6L535.3 176c.2 0 .5 0 .7 0c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40c0 9 3 17.3 8 24l-89.1 71.3c-15.9 12.7-39.5 7.5-48.6-10.7L309 106z"/></svg>
+                                Zachariasz Słupski
+                                </div>
+                                
+                            </td>
+                            <td class="match__col game__looser__col"> Magnus Carlsen</td>
+                            <td > 
+                                <a class="match__link"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" class="chessboard__icon"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm64 64v64h64V96h64v64h64V96h64v64H320v64h64v64H320v64h64v64H320V352H256v64H192V352H128v64H64V352h64V288H64V224h64V160H64V96h64zm64 128h64V160H192v64zm0 64V224H128v64h64zm64 0H192v64h64V288zm0 0h64V224H256v64z"/></svg>
+                            Zapis Partii </a>
+                            
+                            </td>   
+                        </tr>
+                        <tr>
+                            <td class="match__col game__winner__col"> 
+                                <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M309 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 14.4 7.6 27 19 34L209.7 220.6c-9.1 18.2-32.7 23.4-48.6 10.7L72 160c5-6.7 8-15 8-24c0-22.1-17.9-40-40-40S0 113.9 0 136s17.9 40 40 40c.2 0 .5 0 .7 0L86.4 427.4c5.5 30.4 32 52.6 63 52.6H426.6c30.9 0 57.4-22.1 63-52.6L535.3 176c.2 0 .5 0 .7 0c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40c0 9 3 17.3 8 24l-89.1 71.3c-15.9 12.7-39.5 7.5-48.6-10.7L309 106z"/></svg>
+                                Zachariasz Słupski
+                                </div>
+                                
+                            </td>
+                            <td class="match__col game__looser__col"> Magnus Carlsen</td>
+                            <td > 
+                                <a class="match__link"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" class="chessboard__icon"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm64 64v64h64V96h64v64h64V96h64v64H320v64h64v64H320v64h64v64H320V352H256v64H192V352H128v64H64V352h64V288H64V224h64V160H64V96h64zm64 128h64V160H192v64zm0 64V224H128v64h64zm64 0H192v64h64V288zm0 0h64V224H256v64z"/></svg>
+                            Zapis Partii </a>
+                            
+                            </td>   
+                        </tr>
+                        <tr>
+                            <td class="match__col game__winner__col"> 
+                                <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M309 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 14.4 7.6 27 19 34L209.7 220.6c-9.1 18.2-32.7 23.4-48.6 10.7L72 160c5-6.7 8-15 8-24c0-22.1-17.9-40-40-40S0 113.9 0 136s17.9 40 40 40c.2 0 .5 0 .7 0L86.4 427.4c5.5 30.4 32 52.6 63 52.6H426.6c30.9 0 57.4-22.1 63-52.6L535.3 176c.2 0 .5 0 .7 0c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40c0 9 3 17.3 8 24l-89.1 71.3c-15.9 12.7-39.5 7.5-48.6-10.7L309 106z"/></svg>
+                                Zachariasz Słupski
+                                </div>
+                                
+                            </td>
+                            <td class="match__col game__looser__col"> Magnus Carlsen</td>
+                            <td > 
+                                <a class="match__link"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" class="chessboard__icon"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm64 64v64h64V96h64v64h64V96h64v64H320v64h64v64H320v64h64v64H320V352H256v64H192V352H128v64H64V352h64V288H64V224h64V160H64V96h64zm64 128h64V160H192v64zm0 64V224H128v64h64zm64 0H192v64h64V288zm0 0h64V224H256v64z"/></svg>
+                            Zapis Partii </a>
+                            
+                            </td>   
+                        </tr>
+                        <tr>
+                            <td class="match__col game__winner__col"> 
+                                <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M309 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 14.4 7.6 27 19 34L209.7 220.6c-9.1 18.2-32.7 23.4-48.6 10.7L72 160c5-6.7 8-15 8-24c0-22.1-17.9-40-40-40S0 113.9 0 136s17.9 40 40 40c.2 0 .5 0 .7 0L86.4 427.4c5.5 30.4 32 52.6 63 52.6H426.6c30.9 0 57.4-22.1 63-52.6L535.3 176c.2 0 .5 0 .7 0c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40c0 9 3 17.3 8 24l-89.1 71.3c-15.9 12.7-39.5 7.5-48.6-10.7L309 106z"/></svg>
+                                Zachariasz Słupski
+                                </div>
+                                
+                            </td>
+                            <td class="match__col game__looser__col"> Magnus Carlsen</td>
+                            <td > 
+                                <a class="match__link"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" class="chessboard__icon"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm64 64v64h64V96h64v64h64V96h64v64H320v64h64v64H320v64h64v64H320V352H256v64H192V352H128v64H64V352h64V288H64V224h64V160H64V96h64zm64 128h64V160H192v64zm0 64V224H128v64h64zm64 0H192v64h64V288zm0 0h64V224H256v64z"/></svg>
+                            Zapis Partii </a>
+                            
+                            </td>   
+                        </tr>
+                        
+                </tbody>
+            </table>
         </div>
         <div class="tournament__tab tournament__content--hidden">
             <h3 class="tournament__tab__title">Galeria</h3>
+            <div class="gallery__container">
+                <div><img  src="img/skills_section-1.jpg"/></div>
+                <div><img  src="img/skills_section-2.jpeg"/></div>
+                <div><img  src="img/skills_section-3.jpg"/></div>
+                <div><img  src="img/placeholder_img.png"/></div>
+                <div><img  src="img/skills_section-2.jpeg"/></div>
+                <div><img  src="img/skills_section-3.jpg"/></div>
+                <div><img  src="img/skills_section-1.jpg"/></div>
+                <div><img  src="img/skills_section-2.jpeg"/></div>
+                <div><img  src="img/skills_section-3.jpg"/></div>
+                <div><img  src="img/placeholder_img.png"/></div>
+                <div><img  src="img/turnieje/test1.jpg"/></div>
+            </div>
         </div>
     </div>
+    <?php
+        require_once "footer.php";
+    ?>
     <script src="scripts/changeTournamentTab.js"></script>
 </body>
 </html>

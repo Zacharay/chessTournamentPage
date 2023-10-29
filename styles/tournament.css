@@ -118,7 +118,7 @@ Results section
 }
 .winners__block__container:nth-child(2) svg
 {
-    fill:#f7c631;
+    fill:var(--gold-main);
 }
 .winners__block__container:nth-child(3) svg
 {
@@ -154,4 +154,41 @@ Results section
     text-align: center;
     font-size:2.4rem;
     padding:1.6rem;
+}
+.chessboard__icon{
+    fill:var(--green-main);
+    height:3.2rem !important;
+}
+.game__winner__col{
+    background-color: var(--green-secondary);
+}
+.game__winner__col div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.8rem;
+}
+.game__winner__col div svg{
+    fill:var(--gold-main);
+
+    font-size:3.2rem !important;
+}
+.game__looser__col{
+    background-color: #fa5252;
+}
+.match__col{
+    font-weight: 700;
+    color:var(--light-main);
+}
+.match__link{
+    font-weight: bold;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:0.8rem;
+    transition: 0.4s all;
+}
+.match__link:hover{
+    color:var(--green-secondary);
+    cursor: pointer;
 }

@@ -7,6 +7,8 @@
 :root{
     --green-main:#6B9641;
     --green-secondary:#7EA650;
+    --gold-main:#f7c631;
+    --light-main:rgb(255 247 237);
 }
 a:link,a:visited{
 
@@ -14,8 +16,8 @@ a:link,a:visited{
 }
 body{
     font-family: 'Lato', sans-serif;
-    color:rgb(1, 0, 14);
-    background-color: rgb(255 247 237);
+    color:#111;
+    background-color: var(--light-main);
 }
 html{
     font-size:62.5%;
@@ -40,3 +42,26 @@ img{
     margin:0 auto;
 }
 
+
+.gallery__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.2rem;
+    width: 100%;
+}
+.gallery__container div{
+    height:25rem;
+    overflow: hidden;
+}
+
+.gallery__container img {
+    cursor: pointer;
+    object-fit: cover;
+    object-position: center;
+    width:100%;
+    height:100%;
+    transition: 0.4s all;
+}
+.gallery__container img:hover{
+    transform:scale(1.1);
+}

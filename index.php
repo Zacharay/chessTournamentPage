@@ -14,7 +14,7 @@
     <header class="hero__header">
         <div class="hero__section">
             <h1 class="hero__quote">Szachy są w swej istocie grą,</br> w swojej formie sztuką,</br> a w swoim wykonaniu nauką</h1>
-            <img src="img/test1.png" class="hero__image"/>    
+            <img src="img/logo.png" class="hero__image"/>    
         </div>
     </header>
     <section class="skills__section">
@@ -116,7 +116,23 @@
     </section>
     <section class="container">
         <h1 class="heading__primary">Galeria</h1>
+        <div class="gallery__container">
+                <div><img  src="img/skills_section-1.jpg"/></div>
+                <div><img  src="img/skills_section-2.jpeg"/></div>
+                <div><img  src="img/skills_section-3.jpg"/></div>
+                <div><img  src="img/placeholder_img.png"/></div>
+                <div><img  src="img/skills_section-2.jpeg"/></div>
+                <div><img  src="img/skills_section-3.jpg"/></div>
+                <div><img  src="img/skills_section-1.jpg"/></div>
+                <div><img  src="img/skills_section-2.jpeg"/></div>
+                <div><img  src="img/skills_section-3.jpg"/></div>
+                <div><img  src="img/placeholder_img.png"/></div>
+                <div><img  src="img/turnieje/test1.jpg"/></div>
+        </div>
     </section>
+    <?php
+        require_once "footer.php";
+    ?>
     <script src="scripts/animate.js"></script>
 </body>
 </html>
