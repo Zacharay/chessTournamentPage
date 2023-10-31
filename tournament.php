@@ -19,7 +19,7 @@
             $file = fopen($filename, "r");
 
             if ($file) {
-                $skipFirstLine = true;
+                $skipFirstLine = false;
 
                 while (($line = fgets($file)) !== false) {
                     if ($skipFirstLine) {
@@ -33,11 +33,9 @@
                         'miejsce' => $data[1],
                         'imieNazwisko' => $data[2],
                         'klasa' => $data[3],
-                        'pkt' => $data[4],
-                        'wygrane' => $data[5],
-                        'przegrane' => $data[6],
-                        'remisy' => $data[7],
-                        'mecze' => $data[8]
+                        'wygrane' => $data[4],
+                        'przegrane' => $data[5],
+                        'remisy' => $data[6],
                     ];
                 }
 
@@ -49,9 +47,17 @@
             echo "File does not exist.";
         }
 
-        // Sort the array by 'miejsce'
         usort($stats, function($a, $b) {
-            return strcmp($a['miejsce'], $b['miejsce']);
+            $miejsceA = (int)$a['miejsce'];
+            $miejsceB = (int)$b['miejsce'];
+        
+            if ($miejsceA < $miejsceB) {
+                return -1;
+            } elseif ($miejsceA > $miejsceB) {
+                return 1;
+            } else {
+                return 0;
+            }
         });
     ?>
     <nav class="tournament__navigation">
@@ -152,11 +158,9 @@
                         <th>#</th>
                         <th>Imię i Nazwisko</th>
                         <th>Klasa</th>
-                        <th>Pkt.</th>
                         <th>W</th>
                         <th>P</th>
                         <th>R</th>
-                        <th>Partie</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -167,11 +171,9 @@
                         <td>{$stat['miejsce']}</td>
                         <td>{$stat['imieNazwisko']}</td>
                         <td>{$stat['klasa']}</td>
-                        <td>{$stat['pkt']}</td>
                         <td>{$stat['wygrane']}</td>
                         <td>{$stat['przegrane']}</td>
                         <td>{$stat['remisy']}</td>
-                        <td>{$stat['mecze']}</td>
                     </tr>";
                 }
                 ?>   
@@ -315,7 +317,7 @@
                 <div><img  src="img/skills_section-3.jpg"/></div>
                 <div><img  src="img/placeholder_img.png"/></div>
                 <div><img  src="img/skills_section-2.jpeg"/></div>
-                <div><img  src="img/skills_section-3.jpg"/></div>
+                <div><img  src="img/skills_section-3.jpg" alt="gallery photo"/></div>
                 <div><img  src="img/skills_section-1.jpg"/></div>
                 <div><img  src="img/skills_section-2.jpeg"/></div>
                 <div><img  src="img/skills_section-3.jpg"/></div>
