@@ -66,7 +66,8 @@
 /*------------*/
 .skills__element{
     display:grid;
-    grid-template-columns: 50fr 50fr;
+    grid-template-columns: 1fr 1fr;
+   
     gap:4.8rem;
     
 }
@@ -80,10 +81,19 @@
     transition: all 1.5s;
 }
 .skills__left{
+    grid-column: 1/2;
+    grid-row: 1;
+}
+.skills__right{
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+.skills__left__fade{
     transform: translateX(-10%);
     opacity:0;
 }
-.skills__right
+.skills__right__fade
 {
     transform: translateX(10%);
     opacity:0;

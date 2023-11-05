@@ -1,0 +1,48 @@
+//Runda 1
+Kacper Puchowski;Mariusz Piontkowski;1;https://www.chess.com/game/live/92128901833
+Grzegorz Płodowski;Jakub Sakwiński;2;https://www.chess.com/game/live/92128901849
+Łukasz Mosiołek;Bartłomiej Kłuba;2;https://www.chess.com/game/live/92128901859
+Szymon Stępkowski;Bartłomiej Kawski;2;https://www.chess.com/game/live/92128901845
+Bartosz Kozikowski;Brajan Kowalewski;1;https://www.chess.com/game/live/92128901857
+Wojtek Czubiński;Patryk Rafiński;2;https://www.chess.com/game/live/92128901855
+//Runda 2
+Bartosz Kozikowski;Kacper Puchowski;2;https://www.chess.com/game/live/92130086991
+Bartłomiej Kawski;Bartosz Kłuba;2;https://www.chess.com/game/live/92130086993
+Patryk Rafiński;Jakub Sakwiński;2;https://www.chess.com/game/live/92130086997
+Wojciech Czubiński;Grzegorz Płodowski;2;https://www.chess.com/game/live/92130086999
+Mariusz Piontkowski;Brajan Kowalewski;0;https://www.chess.com/game/live/92130087003
+Łukasz Mosiołek;Szymon Stępkowski;2;https://www.chess.com/game/live/92130087005
+//Runda 3
+Jakub Sakwiński;Kacper Puchowski;2;https://www.chess.com/game/live/92131281401
+Patryk Rafiński;Bartłomiej Kawski;2;https://www.chess.com/game/live/92131281403
+Grzegorz Płodowski;Szymon Stępkowski;1;https://www.chess.com/game/live/92131281405
+Mariusz Piontkowski;Bartosz Kozikowski;1;https://www.chess.com/game/live/92131281407
+Brajan Kowalewski;Wojciech Czubiński;2;https://www.chess.com/game/live/92131281409
+//Runda 4
+Kacper Puchowski;Bartłomiej Kawski;1;https://www.chess.com/game/live/92132474621
+Bartosz Kłuba;Grzegorz Płodowski;1;https://www.chess.com/game/live/92132474625
+Jakub Sakwiński;Mariusz Piontkowski;1;https://www.chess.com/game/live/92132474631
+Bartosz Kozikowski;Patryk Rafiński;1;https://www.chess.com/game/live/92132474633
+Szymon Stępkowski;Wojciech Czubiński;2;https://www.chess.com/game/live/92132474635
+Brajan Kowalewski;Łukasz Mosiołek;2;https://www.chess.com/game/live/92132474637
+//Runda 5
+Bartosz Kłuba;Kacper Puchowski;2;https://www.chess.com/game/live/92133625883
+Bartłomiej Kawski;Jakub Sakwiński;2;https://www.chess.com/game/live/92133625885
+Grzegorz Płodowski;Łukasz Mosiołek;1;https://www.chess.com/game/live/92133625887
+Wojciech Czubiński;Bartosz Kozikowski;2;https://www.chess.com/game/live/92133625889
+Patryk Rafiński;Mariusz Piontkowski;1;https://www.chess.com/game/live/92133625893
+Szymon Stępkowski;Brajan Kowalewski;1;https://www.chess.com/game/live/92133625895
+//Runda 6
+Kacper Puchowski;Grzegorz Płodowski;1;https://www.chess.com/game/live/92134321735
+Jakub Sakwiński;Bartosz Kozikowski;1;https://www.chess.com/game/live/92134321737
+Wojciech Czubińśki;Bartosz Kłuba;2;https://www.chess.com/game/live/92134321739
+Łukasz Mosiołek;Bartłomiej Kawski;2;https://www.chess.com/game/live/92134321743
+Brajan Kowalewski;Patryk Rafiński;0;https://www.chess.com/game/live/92134321745
+Mariusz Piontkowski;Szymon Stępkowski;1;https://www.chess.com/game/live/92134321747
+//Runda 7
+Bartosz Kłuba;Jakub Sakwiński;0;https://www.chess.com/game/live/92139658183
+Bartłomiej Kawski;Brajan Kowalewski;1;https://www.chess.com/game/live/92139663353
+Bartosz Kozikowski;Grzegorz Płodowski;2;https://www.chess.com/game/live/92139657927
+Mariusz Piontkowski;Wojciech Czubiński;1;https://www.chess.com/game/live/92139658865
+Patryk Rafiński;Łukasz Mosiołek;1;https://www.chess.com/game/live/92139658939
+Szymon Stępkowski;Kacper Puchowski;2;https://www.chess.com/game/live/92139659691

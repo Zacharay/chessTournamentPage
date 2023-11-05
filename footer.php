@@ -1,5 +1,4 @@
 <head>
-    <link rel="stylesheet" href="globals.css">
     <style>
         footer{
             display: flex;
@@ -9,7 +8,7 @@
             padding:2rem;
             background-color: #111;
             color:white;
-            margin-top:4.8rem;
+            margin-top:auto;
 
         }
     </style>

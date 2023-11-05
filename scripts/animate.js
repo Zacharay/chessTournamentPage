@@ -2,10 +2,10 @@ const skillsObserver = new IntersectionObserver(entries=>{
     entries.forEach(entry =>{
         if(entry.isIntersecting)
         {
-            const leftElement = entry.target.querySelector('.skills__left');
-            const rightElement = entry.target.querySelector('.skills__right');
-            leftElement.classList.remove("skills__left");
-            rightElement.classList.remove("skills__right");
+            const leftElement = entry.target.querySelector('.skills__left__fade');
+            const rightElement = entry.target.querySelector('.skills__right__fade');
+            leftElement.classList.remove("skills__left__fade");
+            rightElement.classList.remove("skills__right__fade");
 
             skillsObserver.unobserve(entry.target);
         }

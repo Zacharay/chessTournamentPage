@@ -1,0 +1,61 @@
+@media (max-width:1024px){
+    html{
+        font-size:50%;
+    }
+}
+@media (max-width:768px){
+    .hero__section{
+        flex-direction: column;
+        justify-content: center;
+        gap:3.2rem;
+    }
+    .hero__quote{
+        font-size:4rem;
+    }
+    .hero__image{
+        min-width: 50%;
+    }
+    .skills__element{
+        display:flex;
+        flex-direction: column;
+        gap:0.8rem;
+    }
+    .skills__left{
+        grid-column:auto;
+        grid-row: auto;
+    }
+    .skills__right{
+        grid-column:auto;
+        grid-row: auto;
+    }
+    .skills__content{
+        justify-content: end;
+    }
+    .heading__primary{
+        font-size:5.6rem;
+    }
+    .current__container{
+        width:100%;
+    }
+    .previous__container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .gallery__container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .players__container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:420px)
+{
+    html{
+        font-size:45%;
+    }
+    .gallery__container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .players__container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

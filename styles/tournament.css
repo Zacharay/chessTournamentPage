@@ -10,9 +10,9 @@
 .tournament__navigation{
     display:flex;
     justify-content: center;
-    max-width: 80%;
+    width:70rem;
     margin:0 auto;
-
+    
     margin-top:2rem;
     margin-bottom: 3.2rem;
 }
@@ -21,8 +21,8 @@
     font-weight: 700;
     text-align: center;
     color:#111;
-    cursor: pointer;
     padding:3.2rem;
+    cursor: pointer;
     border-bottom:8px solid #111;
     transition: 0.4s color;
 }
@@ -144,6 +144,7 @@ Results section
     width:100%;
     border:2px solid black;
     border-collapse: collapse;
+    margin-bottom:4rem;
 }
 .tournament__table th{
     font-size:3.2rem;
@@ -187,8 +188,15 @@ Results section
     align-items: center;
     gap:0.8rem;
     transition: 0.4s all;
+    color:inherit;
 }
 .match__link:hover{
     color:var(--green-secondary);
     cursor: pointer;
+}
+.round__number{
+    font-size:3.2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom:0.8rem;
 }

@@ -11,7 +11,7 @@
 .nav__container{
     max-width: 128rem;
     margin:0 auto;
-    padding:1.6rem;
+    padding:1.6rem 6.4rem;
     display:flex;
     align-items: center;
     justify-content: space-between;
