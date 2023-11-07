@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/globals.css">
     <link rel="stylesheet" href="styles/tournament.css">
+    <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/queries.css">
     <title>Budowlanka Rivals - Szachy</title>
 </head>
@@ -114,7 +115,7 @@
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda expedita illum debitis totam possimus! Tempore voluptates amet ipsum aut qui! Ipsa libero, doloremque ab culpa voluptatum quia voluptatibus sequi nemo, aperiam earum voluptas in vitae alias maxime blanditiis asperiores voluptates! Pariatur magnam tempora similique dolores excepturi quam distinctio! Temporibus deserunt molestiae repellendus assumenda libero esse! Ipsum commodi quam eos aliquid? Ut quia id similique assumenda recusandae quasi est vitae voluptatibus?
             </p>
         </div>
-        <div class="tournament__tab tournament__players tournament__content--hidden">
+        <div class="tournament__tab tournament__players hidden">
             <h3 class="tournament__tab__title">Zawodnicy</h3>
             <div class="players__container">
                 <?php
@@ -131,7 +132,7 @@
                 ?>
             </div>
         </div>
-        <div class="tournament__tab tournament__content--hidden">
+        <div class="tournament__tab hidden">
             <h3 class="tournament__tab__title">Zwycięzcy</h3>
             <div class="tournament__winners__container">
                 <div class="winners__block__container">
@@ -182,7 +183,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="tournament__tab tournament__content--hidden">
+        <div class="tournament__tab hidden">
             <h3 class="tournament__tab__title">Partie</h3>
             <?php
                 // print_r($rounds);
@@ -224,7 +225,7 @@
                 }
             ?>
         </div>
-        <div class="tournament__tab tournament__content--hidden">
+        <div class="tournament__tab hidden">
             <h3 class="tournament__tab__title">Galeria</h3>
             <div class="gallery__container">
             <?php

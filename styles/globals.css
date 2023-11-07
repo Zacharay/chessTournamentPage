@@ -11,7 +11,7 @@
     --light-main:rgb(255 247 237);
 }
 a:link,a:visited{
-
+    color:inherit;
     text-decoration: none;
 }
 body{
@@ -31,6 +31,10 @@ section {
 
 img{
     max-width: 100%;
+}
+
+.hidden{
+    display:none;
 }
 .heading__primary{
     font-size:6.4rem;
