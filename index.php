@@ -95,7 +95,7 @@
         <h1 class="heading__primary">Poprzednie Turnieje</h1>
         <div class="previous__container">
                 <a class="previous__element previous__element__hide" href="#">
-                    <img src="turnieje/1/img/main.jpg" />
+                    <img src="turnieje/01/img/main.jpg" />
                     <h1 class="previous__title">Budowlanka Rivals 2023</h1>
                     <p class="previous__description">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veritatis, nulla cumque sapiente libero in et quod rerum pariatur quia quae velit nobis eius, animi saepe dignissimos quidem est illo earum incidunt. Sit unde harum eius inventore. Maiores, hic dolorem.

@@ -1,9 +1,9 @@
 //Ścieżki do zdjęć, które będą wyświetlane w galerii na stronie głównej 
-turnieje/1/img/galeria/1.jpg
-turnieje/1/img/galeria/2.jpg
-turnieje/1/img/galeria/3.jpg
-turnieje/1/img/galeria/4.jpg
-turnieje/1/img/galeria/5.jpg
-turnieje/1/img/galeria/20.jpg
+turnieje/01/img/galeria/1.jpg
+turnieje/01/img/galeria/2.jpg
+turnieje/01/img/galeria/3.jpg
+turnieje/01/img/galeria/4.jpg
+turnieje/01/img/galeria/5.jpg
+turnieje/01/img/galeria/20.jpg
 
 

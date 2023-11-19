@@ -1,0 +1,6 @@
+//Wylacz kontrol panel 1 to wlaczony, 0 to wylaczony
+1
+//login do admina
+budo
+//haslo do admina
+123

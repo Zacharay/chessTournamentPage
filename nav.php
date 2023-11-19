@@ -13,7 +13,29 @@
                     <div class="dropdown">
                         <a class="nav__element">Poprzednie Edycje</a>
                         <div class="dropdown-content">
-                            <a href="tournament.php">Budowlanka Rivals 2023</a>
+                            <?php
+                            $tournaments = scandir('turnieje');
+                            foreach($tournaments as $tournament)
+                            {
+                                if($tournament=='.'||$tournament=='..')
+                                {
+                                    continue;
+                                }
+                                $lines = file("turnieje/$tournament/main.txt");
+                                $mainInfo = [];
+                                foreach($lines as $line)
+                                {
+                                    if(strpos($line,'//')===0)continue;
+
+                                    array_push($mainInfo,$line);
+                                }
+                                if($mainInfo[2]==1)
+                                {
+                                    echo "<a href='tournament.php?tournamentID=$tournament'>$mainInfo[0]</a>";
+                                }
+                            }
+                            ?>
+                            
                         </div>
                     </div>
                     <a class="nav__element">Regulamin</a>

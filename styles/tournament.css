@@ -155,6 +155,11 @@ Results section
     font-size:2.4rem;
     padding:1.6rem;
 }
+.tournament__tab h4{
+    font-size:3.2rem;
+    text-align: center;
+    margin:3.2rem 0rem;
+}
 .chessboard__icon{
     fill:var(--green-main);
     height:3.2rem !important;
@@ -175,6 +180,9 @@ Results section
 }
 .game__looser__col{
     background-color: #fa5252;
+}
+.game__draw__col{
+    background-color: #868e96;
 }
 .match__col{
     font-weight: 700;

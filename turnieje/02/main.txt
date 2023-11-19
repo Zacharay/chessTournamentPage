@@ -1,0 +1,8 @@
+//Nazwa Turnieju
+Szachy 2023
+//Data turnieju
+2023-11-17
+//czy pokazać na stronie
+1
+//Opis
+dsadasdasdsa dsadasdasdsa dsadasdasdsa dsadasdasdsadsadasdasdsa dsadasdasdsadsadasdasdsa dsadasdasdsadsadasdasdsa dsadasdasdsadsadasdasdsa dsadasdasdsadsadasdasdsa dsadasdasdsadsadasdasdsa dsadasdasdsadsadasdasdsa dsadasdasdsadsadasdasdsa dsadasdasdsadsadasdasdsa dsadasdasdsa
