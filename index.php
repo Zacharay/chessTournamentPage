@@ -64,45 +64,65 @@
     <section class="container">
         <h1 class="heading__primary">Następny turniej</h1>
         <div class="current__container">
-            <!-- <h2 class="current__title">Brak informacji o następnym turnieju</h2>  -->
-            <h2 class="current__title">Budowlanka Rivals 2023</h2>
-            <div class="current__description">
-                Z przyjemnością ogłaszamy nadchodzący Turniej Szachowy "Budowlanka Rivals 2023"! To wielkie wydarzenie szachowe, które nie może umknąć Twojej uwadze!
-                <h4 class="current__description__heading">Informacje o turnieju</h4>
-                <ul>
-                    <li>Data: 27 października 2023</li>
-                    <li>Godzina: 8:00</li>
-                    <li>Miejsce: Świetlica szkolna</li>
-                </ul>
-                
-                <h4 class="current__description__heading">Organizatorzy</h4>
-                <ul>
-                    <li>Kacper Puchowski 5e5</li>
-                    <li>Mateusz Bartczak 5i5</li>
-                </ul>
-                To wydarzenie jest doskonałą okazją dla wszystkich miłośników szachów, bez względu na poziom zaawansowania. Przyjdź i włącz się do emocjonującej rywalizacji, rozwijaj swoje umiejętności szachowe i spotkaj się z innymi pasjonatami tej wspaniałej gry.
-                Nie przegap okazji do udziału w Turnieju Szachowym "Budowlanka Rivals 2023"! Zapraszamy wszystkich uczniów do wzięcia udziału i podzielenia się tą pasją.
+            
+            <!-- <h2 class="current__title">Budowlanka Rivals 2023</h2> -->
+            
+                <?php
+                $ogloszenie = file("ogloszenie.txt");
+                if(!$ogloszenie)
+                {
+                    echo '<h2 class="current__title">Brak informacji o następnym turnieju</h2>';
+                }
+                else{
+                    echo '<div class="current__description">';
+                    foreach($ogloszenie as $line)
+                    {
+                        echo $line;
+                        echo "<br />";
+                    }
+                    echo '
+                    <h4 class="current__ending__message">
+                        Do zobaczenia przy szachownicy!
+                    </h4>';
+                    echo "</div>";
+                }
 
-                <h4 class="current__ending__message">
-                    Do zobaczenia przy szachownicy!
-                </h4>
-
-
-            </div>
+                ?>
         </div>
     </section>
     <section class="previous__section container">
         <h1 class="heading__primary">Poprzednie Turnieje</h1>
         <div class="previous__container">
-                <a class="previous__element previous__element__hide" href="#">
-                    <img src="turnieje/01/img/main.jpg" />
-                    <h1 class="previous__title">Budowlanka Rivals 2023</h1>
-                    <p class="previous__description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veritatis, nulla cumque sapiente libero in et quod rerum pariatur quia quae velit nobis eius, animi saepe dignissimos quidem est illo earum incidunt. Sit unde harum eius inventore. Maiores, hic dolorem.
+            <?php
+            $files = scandir("turnieje");
+            
+            $tournaments = [];
+            foreach($files as $file)
+            {
+                if ($file =='.'||$file =='..')continue;
+                array_push($tournaments,$file);
+            }
+            rsort($tournaments);
+            
+            for($i=0;$i<3;$i++)
+            {
+                if($i>=count($tournaments))break;
+                $tournamentPath = "turnieje/".$tournaments[$i];
+                $tournamentData = file($tournamentPath."/main.txt");
+                $description = substr($tournamentData[7],0,150);
+                echo "
+                <a class='previous__element previous__element__hide' href='tournament.php?tournamentID=$tournaments[$i]'>
+                    <img src='$tournamentPath/img/main.jpg' />
+                    <h1 class='previous__title'>$tournamentData[1]</h1>
+                    <p class='previous__description'>
+                        $description
                     </p>
                 </a>
+                ";
+            }
+            ?>
+                
         </div>
-        <a href="tournaments.html" class="previous__link">Zobacz wszystkie </a>
     </section>
     <section class="container">
         <h1 class="heading__primary">Galeria</h1>
